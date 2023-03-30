@@ -6,13 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SchoolApp" />
+        <module name="com-okyay-library-schoolapp-repository" />
+        <module name="SchoolService" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="com-okyay-library-schoolapp-repository" target="17" />
+      <module name="SchoolService" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="SchoolApp" options="-parameters" />
+      <module name="SchoolService" options="-parameters" />
+      <module name="com-okyay-library-schoolapp-repository" options="-parameters" />
     </option>
   </component>
 </project>
