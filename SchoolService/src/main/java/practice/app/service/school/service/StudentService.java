@@ -7,19 +7,24 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 
 import practice.app.service.school.dto.CountDTO;
+import practice.app.service.school.dto.StudentSaveDTO;
 import practice.app.service.school.dto.StudentsDTO;
 import practice.app.service.school.mapper.IStudentMapper;
+import practice.app.service.school.mapper.IStudentSaveMapper;
 
 @Service
 public class StudentService {
     private final StudentServiceHelper m_studentServiceHelper;
     private final IStudentMapper m_studentMapper;
+    private final IStudentSaveMapper m_studentSaveMapper;
 
     public StudentService(@Qualifier(BeanName.STUDENT_SERVICE_HELPER) StudentServiceHelper studentServiceHelper,
-                          IStudentMapper studentMapper)
+                          IStudentMapper studentMapper,
+                          IStudentSaveMapper studentSaveMapper)
     {
         m_studentServiceHelper = studentServiceHelper;
         m_studentMapper = studentMapper;
+        m_studentSaveMapper = studentSaveMapper;
     }
 
     public CountDTO countStudents()
@@ -38,5 +43,12 @@ public class StudentService {
     public StudentsDTO findStudentByLastName(String lastName)
     {
         return m_studentMapper.toStudentsDTO(CollectionUtil.toList(m_studentServiceHelper.findStudentByLastName(lastName), m_studentMapper::toStudentDTO));
+    }
+
+    public StudentSaveDTO saveStudent(StudentSaveDTO studentSaveDTO)
+    {
+        m_studentServiceHelper.saveStudent(m_studentSaveMapper.toStudentSave(studentSaveDTO));
+
+        return studentSaveDTO;
     }
 }

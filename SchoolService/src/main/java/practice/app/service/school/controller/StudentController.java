@@ -1,10 +1,8 @@
 package practice.app.service.school.controller;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import practice.app.service.school.dto.CountDTO;
+import practice.app.service.school.dto.StudentSaveDTO;
 import practice.app.service.school.dto.StudentsDTO;
 import practice.app.service.school.service.StudentService;
 
@@ -34,5 +32,11 @@ public class StudentController {
     public StudentsDTO findByLastName(@RequestParam("lName") String lastName)
     {
         return m_studentService.findStudentByLastName(lastName);
+    }
+
+    @PostMapping("student/save")
+    public StudentSaveDTO save(@RequestBody StudentSaveDTO studentSaveDTO)
+    {
+        return m_studentService.saveStudent(studentSaveDTO);
     }
 }

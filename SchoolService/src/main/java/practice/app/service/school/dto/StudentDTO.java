@@ -2,8 +2,6 @@ package practice.app.service.school.dto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 
-import java.util.Optional;
-
 public class StudentDTO {
     public long studentNo;
     public String firstName;

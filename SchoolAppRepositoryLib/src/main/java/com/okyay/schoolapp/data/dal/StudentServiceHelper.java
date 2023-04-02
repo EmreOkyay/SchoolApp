@@ -2,6 +2,8 @@ package com.okyay.schoolapp.data.dal;
 
 import com.okyay.schoolapp.data.BeanName;
 import com.okyay.schoolapp.data.entity.Student;
+import com.okyay.schoolapp.data.entity.StudentSave;
+import com.okyay.schoolapp.data.mapper.IStudentMapper;
 import com.okyay.schoolapp.data.repository.IStudentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
@@ -9,10 +11,13 @@ import org.springframework.stereotype.Component;
 @Component(BeanName.STUDENT_SERVICE_HELPER)
 public class StudentServiceHelper {
     private final IStudentRepository m_studentRepository;
+    private final IStudentMapper m_studentMapper;
 
-    public StudentServiceHelper(@Qualifier(BeanName.STUDENT_REPOSITORY) IStudentRepository studentRepository)
+    public StudentServiceHelper(@Qualifier(BeanName.STUDENT_REPOSITORY) IStudentRepository studentRepository,
+                                @Qualifier(BeanName.STUDENT_MAPPER) IStudentMapper studentMapper)
     {
         m_studentRepository = studentRepository;
+        m_studentMapper = studentMapper;
     }
 
     public long countStudents()
@@ -38,9 +43,11 @@ public class StudentServiceHelper {
         return m_studentRepository.findByGpa(gpa);
     }
 
-    public <S extends Student> S saveStudent(S student)
+    public StudentSave saveStudent(StudentSave studentDTO)
     {
-        return m_studentRepository.save(student);
+        m_studentRepository.save(m_studentMapper.toStudent(studentDTO));
+
+        return studentDTO;
     }
 
 }
