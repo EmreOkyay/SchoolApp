@@ -39,7 +39,7 @@ public class StudentRepository implements IStudentRepository {
     {
         var studentNo = rs.getLong(1);
         var firstName = rs.getString(2);
-        var middleName = Optional.ofNullable(rs.getString(3));
+        var middleName = rs.getString(3);
         var lastName = rs.getString(4);
         var className = rs.getString(5);
         var gpa = rs.getDouble(6);
@@ -106,7 +106,7 @@ public class StudentRepository implements IStudentRepository {
     @Override
     public <S extends Student> S save(S student)
     {
-        var paramSource = new BeanPropertySqlParameterSource(m_studentMapper.toStudentSave(student));
+        var paramSource = new BeanPropertySqlParameterSource(student);
 
         m_namedParameterJdbcTemplate.update(SAVE_SQL, paramSource);
 

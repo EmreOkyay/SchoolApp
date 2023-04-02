@@ -5,8 +5,14 @@
     <value-preview-text-wrapping value="true" />
     <value-preview-pinned value="false" />
   </component>
+  <component name="DBNavigator.Project.DatabaseBrowserManager">
+    <autoscroll-to-editor value="false" />
+    <autoscroll-from-editor value="true" />
+    <show-object-properties value="true" />
+    <loaded-nodes />
+  </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="c41e1d81-62b5-4946-b321-14ecdf8a4614">
+    <connection id="ca77d2e0-431b-461c-9fbe-dc066d36065d">
       <console name="japp_schoolappdb" type="STANDARD" schema="postgres" session="Main" />
     </connection>
   </component>
@@ -19,13 +25,18 @@
   <component name="DBNavigator.Project.ExecutionManager">
     <retain-sticky-names value="false" />
   </component>
+  <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/sql/ddl.sql" connection-id="ca77d2e0-431b-461c-9fbe-dc066d36065d" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/SchoolService/src/main/resources/data.sql" connection-id="ca77d2e0-431b-461c-9fbe-dc066d36065d" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/SchoolService/src/main/resources/schema.sql" connection-id="ca77d2e0-431b-461c-9fbe-dc066d36065d" session-id="MAIN" current-schema="public" />
+  </component>
   <component name="DBNavigator.Project.ObjectQuickFilterManager">
     <last-used-operator value="EQUAL" />
     <filters />
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="c41e1d81-62b5-4946-b321-14ecdf8a4614" active="true" signed="true">
+      <connection id="ca77d2e0-431b-461c-9fbe-dc066d36065d" active="true" signed="true">
         <database>
           <name value="japp_schoolappdb" />
           <description value="" />

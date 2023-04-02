@@ -8,14 +8,17 @@ import org.springframework.stereotype.Component;
 @Component(BeanName.STUDENT_MAPPER)
 public class StudentMapper implements IStudentMapper {
     @Override
-    public StudentSave toStudentSave(Student student)
-    {
-        throw new UnsupportedOperationException("Not implemented yet");
-    }
-
-    @Override
     public Student toStudent(StudentSave studentSave)
     {
-        throw new UnsupportedOperationException("Not implemented yet");
+        var studSave = new Student();
+
+        studSave.studentNo = studentSave.studentNo;
+        studSave.firstName = studentSave.firstName;
+        studSave.middleName = studentSave.middleName;
+        studSave.lastName = studentSave.lastName;
+        studSave.className = studentSave.className;
+        studSave.gpa = studentSave.gpa;
+
+        return studSave;
     }
 }
