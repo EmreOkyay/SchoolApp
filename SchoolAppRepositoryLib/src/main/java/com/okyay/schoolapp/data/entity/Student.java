@@ -1,12 +1,11 @@
 package com.okyay.schoolapp.data.entity;
 
-import org.springframework.lang.Nullable;
+import java.util.Optional;
 
 public class Student { // POJO
     public long studentNo;
     public String firstName;
-    @Nullable
-    public String middleName;
+    public Optional<String> middleName;
     public String lastName;
     public String className;
     public double gpa;
@@ -14,7 +13,7 @@ public class Student { // POJO
     public Student()
     {}
 
-    public Student(long studentNo, String firstName, @Nullable String middleName, String lastName, String className, double gpa) {
+    public Student(long studentNo, String firstName, Optional<String> middleName, String lastName, String className, double gpa) {
         this.studentNo = studentNo;
         this.firstName = firstName;
         this.middleName = middleName;
@@ -39,12 +38,19 @@ public class Student { // POJO
         this.firstName = firstName;
     }
 
-    @Nullable
     public String getMiddleName() {
+        return middleName.orElse(null);
+    }
+
+    public void setMiddleName(String middleName) {
+        this.middleName = Optional.ofNullable(middleName);
+    }
+
+    public Optional<String> getMiddleNameOpt() {
         return middleName;
     }
 
-    public void setMiddleName(@Nullable String middleName) {
+    public void setMiddleNameOpt(Optional<String> middleName) {
         this.middleName = middleName;
     }
 

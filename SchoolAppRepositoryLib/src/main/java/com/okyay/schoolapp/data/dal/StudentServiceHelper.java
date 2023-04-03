@@ -8,6 +8,7 @@ import com.okyay.schoolapp.data.repository.IStudentRepository;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
+// a facade layer between service and repository
 @Component(BeanName.STUDENT_SERVICE_HELPER)
 public class StudentServiceHelper {
     private final IStudentRepository m_studentRepository;

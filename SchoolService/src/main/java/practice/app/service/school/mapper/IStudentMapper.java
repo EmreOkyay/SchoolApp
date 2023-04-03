@@ -9,7 +9,7 @@ import practice.app.service.school.dto.StudentsDTO;
 
 import java.util.List;
 
-@Mapper(implementationName = "StudentMapperImpl", componentModel = "spring")
+@Mapper(implementationName = "StudentMapperImpl")
 public interface IStudentMapper {
     StudentDTO toStudentDTO(Student student);
 
