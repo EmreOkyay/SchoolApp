@@ -7,7 +7,7 @@ import practice.app.service.school.dto.StudentSaveDTO;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-04-02T19:14:23+0300",
+    date = "2023-04-04T00:27:42+0300",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
 )
 @Component
