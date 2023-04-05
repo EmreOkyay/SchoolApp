@@ -8,5 +8,17 @@ public class StudentSave { // POJO
     public String className;
     public double gpa;
 
+    @Override
+    public int hashCode()
+    {
+        return Long.valueOf(studentNo).hashCode();
+    }
+
+    @Override
+    public boolean equals(Object obj)
+    {
+        return obj instanceof Student s && s.studentNo == studentNo;
+    }
+
     //...
 }
