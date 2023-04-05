@@ -54,6 +54,7 @@ public class StudentRepository implements IStudentRepository {
         while (rs.next());
     }
 
+    // Gets and adds all student ids to an ArrayList and then returns the column number which acts like a count
     @Override
     public long count() {
         var counts = new ArrayList<Long>();
