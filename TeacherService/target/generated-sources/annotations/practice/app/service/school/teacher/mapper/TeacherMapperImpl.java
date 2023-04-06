@@ -6,7 +6,7 @@ import practice.app.service.school.teacher.dto.TeacherDTO;
 
 @Generated(
     value = "org.mapstruct.ap.MappingProcessor",
-    date = "2023-04-06T02:50:40+0300",
+    date = "2023-04-06T16:45:20+0300",
     comments = "version: 1.5.3.Final, compiler: javac, environment: Java 17.0.2 (Oracle Corporation)"
 )
 public class TeacherMapperImpl implements ITeacherMapper {
