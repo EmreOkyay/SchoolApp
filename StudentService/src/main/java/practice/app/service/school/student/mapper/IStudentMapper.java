@@ -1,6 +1,5 @@
 package practice.app.service.school.student.mapper;
 
-
 import com.okyay.schoolapp.data.entity.Student;
 import org.mapstruct.Mapper;
 import practice.app.service.school.student.dto.CountDTO;

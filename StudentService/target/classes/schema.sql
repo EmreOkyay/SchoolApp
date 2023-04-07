@@ -10,10 +10,12 @@ create table if not exists students (
 );
 
 create table if not exists teachers (
-	teacher_no bigint primary key,
+	teacher_no bigserial primary key,
 	first_name varchar(100) not null,
 	middle_name varchar(100),
-	last_name varchar(100) not null
+	last_name varchar(100) not null,
+	class_name varchar(1) not null,
+	register_date date default(current_date) not null
 );
 
 create table if not exists teachers_to_students (

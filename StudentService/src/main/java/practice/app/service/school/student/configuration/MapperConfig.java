@@ -6,7 +6,6 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
 import practice.app.service.school.student.mapper.IStudentMapper;
 
-// Returns a mapper instance with the given class type
 @Configuration
 public class MapperConfig {
     @Bean

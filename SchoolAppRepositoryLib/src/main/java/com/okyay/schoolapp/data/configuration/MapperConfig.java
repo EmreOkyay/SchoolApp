@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 // Returns a mapper instance with the given class type
-@Configuration(BeanName.STUDENT_MAPPER_CONFIG)
+@Configuration(BeanName.MAPPER_CONFIG)
 public class MapperConfig {
     @Bean(BeanName.STUDENT_MAPPER)
     public IStudentMapper getStudentMapper()

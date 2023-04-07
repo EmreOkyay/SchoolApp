@@ -16,6 +16,9 @@
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
+  <component name="DBNavigator.Project.ExecutionManager">
+    <retain-sticky-names value="false" />
+  </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
     <mapping file-url="file://$PROJECT_DIR$/StudentService/src/main/resources/data.sql" connection-id="9ec5f6e7-58bc-4908-af79-5e14c1b11e7c" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/StudentService/src/main/resources/schema.sql" connection-id="9ec5f6e7-58bc-4908-af79-5e14c1b11e7c" session-id="MAIN" current-schema="public" />
