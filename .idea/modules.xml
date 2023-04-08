@@ -3,9 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/SchoolApp.iml" filepath="$PROJECT_DIR$/.idea/SchoolApp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/StudentService/StudentService.iml" filepath="$PROJECT_DIR$/StudentService/StudentService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/TeacherService/TeacherService.iml" filepath="$PROJECT_DIR$/TeacherService/TeacherService.iml" />
-      <module fileurl="file://$PROJECT_DIR$/SchoolAppRepositoryLib/com-okyay-library-schoolapp-repository.iml" filepath="$PROJECT_DIR$/SchoolAppRepositoryLib/com-okyay-library-schoolapp-repository.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SchoolServiceApp/SchoolServiceApp.iml" filepath="$PROJECT_DIR$/SchoolServiceApp/SchoolServiceApp.iml" />
     </modules>
   </component>
 </project>
