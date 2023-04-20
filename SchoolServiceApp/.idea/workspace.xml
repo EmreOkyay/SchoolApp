@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="62c3cf97-1ca5-471b-8516-e5a463c517a8" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/SchoolAppRepositoryLib/src/main/java/com/okyay/schoolapp/data/dal/StudentServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/SchoolAppRepositoryLib/src/main/java/com/okyay/schoolapp/data/dal/StudentServiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentGetService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentGetService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StudentPostService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/StudentPostService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeacherGetService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeacherGetService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeacherGetService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeacherGetService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TeacherPostService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/TeacherPostService/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2OgAkh4UHZSDOSiW3Y6fglOVpSs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Casper/Desktop/Java-Studies/Personal/SchoolApp/SchoolServiceApp/StudentPostService"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="62c3cf97-1ca5-471b-8516-e5a463c517a8" name="Changes" comment="" />
+      <created>1681971997320</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1681971997320</updated>
+    </task>
+    <servers />
+  </component>
+</project>
