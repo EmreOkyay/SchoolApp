@@ -1,0 +1,15 @@
+practice\app\service\school\student\service\StudentService.class
+practice\app\service\school\student\mapper\StudentSaveMapperImpl.class
+practice\app\service\school\student\dto\StudentSaveDTO.class
+practice\app\service\school\student\dto\TeachersDTO.class
+META-INF\services\practice.app.service.school.student.mapper.IStudentMapper
+practice\app\service\school\student\dto\CountDTO.class
+practice\app\service\school\student\App.class
+practice\app\service\school\student\dto\StudentDTO.class
+practice\app\service\school\student\configuration\MapperConfig.class
+practice\app\service\school\student\controller\StudentController.class
+practice\app\service\school\student\mapper\IStudentSaveMapper.class
+practice\app\service\school\student\dto\TeacherDTO.class
+practice\app\service\school\student\mapper\IStudentMapper.class
+practice\app\service\school\student\dto\StudentsDTO.class
+practice\app\service\school\student\mapper\StudentMapperImpl.class
