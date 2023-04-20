@@ -4,14 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="326c98d5-4424-477d-b0c0-4d793c9fd5f5" name="Changes" comment="" />
+    <list default="true" id="234066ed-8745-468d-a782-7b580f988e98" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -22,8 +22,13 @@
         <option name="useMavenConfig" value="true" />
       </MavenGeneralSettings>
     </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
-  <component name="ProjectId" id="2O6sRb8RspIAf44le2CYdqmQn4G" />
+  <component name="ProjectId" id="2O6sqJh3EnvqjZfns4vrKW1GQ4K" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,22 +37,38 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Casper/Desktop/Java-Studies/Personal/SchoolApp/SchoolServiceApp"
+    "last_opened_file_path": "C:/Users/Casper/Desktop/Java-Studies/Personal/SchoolApp/SchoolServiceApp/StudentGetService",
+    "settings.editor.selected.configurable": "project.propCompiler"
   }
 }]]></component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Casper\Desktop\Java-Studies\Personal\SchoolApp\SchoolServiceApp" />
-    </key>
+  <component name="RunManager">
+    <configuration name="StudentPostServiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice.app.service.school.student.StudentPostServiceApp" />
+      <module name="StudentPostService" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="practice.app.service.school.student.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.StudentPostServiceApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="326c98d5-4424-477d-b0c0-4d793c9fd5f5" name="Changes" comment="" />
-      <created>1680892358583</created>
+      <changelist id="234066ed-8745-468d-a782-7b580f988e98" name="Changes" comment="" />
+      <created>1680892557540</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1680892358583</updated>
+      <updated>1680892557540</updated>
     </task>
     <servers />
   </component>
