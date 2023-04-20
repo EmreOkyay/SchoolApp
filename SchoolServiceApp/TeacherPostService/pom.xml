@@ -10,9 +10,9 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>TeacherService</artifactId>
+    <artifactId>TeacherPostService</artifactId>
     <version>1.0.1</version>
-    <name>TeacherService</name>
+    <name>TeacherPostService</name>
 
     <dependencies>
         <dependency>

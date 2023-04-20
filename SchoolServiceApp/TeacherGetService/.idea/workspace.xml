@@ -5,37 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b02f0a4-069e-4624-8335-f9a5c9f5196d" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../StudentService/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SchoolAppRepositoryLib/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolAppRepositoryLib/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/src/main/java/practice/app/service/school/student/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/src/main/java/practice/app/service/school/student/StudentServiceApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/src/main/java/practice/app/service/school/student/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/src/main/java/practice/app/service/school/student/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/src/main/java/practice/app/service/school/student/dto/TeacherDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/src/main/java/practice/app/service/school/student/dto/TeachersDTO.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/src/test/java/practice/app/service/school/student/AppTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/src/test/java/practice/app/service/school/student/StudentServiceAppTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/StudentService-1.4.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/target/StudentService-1.4.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/classes/practice/app/service/school/student/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/classes/practice/app/service/school/student/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/target/classes/practice/app/service/school/student/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/classes/practice/app/service/school/student/dto/TeacherDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/classes/practice/app/service/school/student/dto/TeachersDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/generated-sources/annotations/practice/app/service/school/student/mapper/StudentMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/target/generated-sources/annotations/practice/app/service/school/student/mapper/StudentMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/generated-sources/annotations/practice/app/service/school/student/mapper/StudentSaveMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/target/generated-sources/annotations/practice/app/service/school/student/mapper/StudentSaveMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentService/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../StudentService/target/test-classes/practice/app/service/school/student/AppTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../SchoolAppRepositoryLib/src/main/java/com/okyay/schoolapp/data/dal/StudentServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolAppRepositoryLib/src/main/java/com/okyay/schoolapp/data/dal/StudentServiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentGetService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentGetService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentPostService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentPostService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/app/service/school/teacher/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/app/service/school/teacher/TeacherServiceApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/practice/app/service/school/teacher/dto/TeacherSaveDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/practice/app/service/school/teacher/dto/TeacherSaveDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/practice/app/service/school/teacher/AppTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/practice/app/service/school/teacher/TeacherServiceAppTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/TeacherService-1.0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/TeacherService-1.0.1.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/app/service/school/teacher/dto/TeacherSaveDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/practice/app/service/school/teacher/dto/TeacherSaveDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/practice/app/service/school/teacher/mapper/TeacherSaveMapperImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/practice/app/service/school/teacher/mapper/TeacherSaveMapperImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/practice/app/service/school/teacher/mapper/TeacherMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/practice/app/service/school/teacher/mapper/TeacherMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/generated-sources/annotations/practice/app/service/school/teacher/mapper/TeacherSaveMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/target/generated-sources/annotations/practice/app/service/school/teacher/mapper/TeacherSaveMapperImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-04-08T18-00-44_825-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-practice.app.service.school.teacher.AppTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-practice.app.service.school.teacher.AppTests.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/practice.app.service.school.teacher.AppTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/practice.app.service.school.teacher.AppTests.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherPostService/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherPostService/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherPostService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherPostService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherPostService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherPostService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherPostService/target/generated-sources/annotations/practice/app/service/school/teacher/mapper/TeacherSaveMapperImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherPostService/target/generated-sources/annotations/practice/app/service/school/teacher/mapper/TeacherSaveMapperImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,14 +48,14 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Casper/Desktop/Java-Studies/Personal/SchoolApp/SchoolServiceApp/TeacherService&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Casper/Desktop/Java-Studies/Personal/SchoolApp/SchoolServiceApp/TeacherGetService&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;project.propCompiler&quot;
   }
 }</component>
   <component name="RunManager">
     <configuration name="TeacherGetServiceApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice.app.service.school.teacher.TeacherGetServiceApp" />
-      <module name="TeacherService" />
+      <module name="TeacherGetService" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="practice.app.service.school.teacher.*" />

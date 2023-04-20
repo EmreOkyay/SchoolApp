@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="234066ed-8745-468d-a782-7b580f988e98" name="Changes" comment="" />
+    <list default="true" id="234066ed-8745-468d-a782-7b580f988e98" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../SchoolAppRepositoryLib/src/main/java/com/okyay/schoolapp/data/dal/StudentServiceHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/../SchoolAppRepositoryLib/src/main/java/com/okyay/schoolapp/data/dal/StudentServiceHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../StudentPostService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../StudentPostService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherGetService/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherGetService/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherGetService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherGetService/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TeacherPostService/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../TeacherPostService/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +44,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Casper/Desktop/Java-Studies/Personal/SchoolApp/SchoolServiceApp/TeacherService",
+    "last_opened_file_path": "C:/Users/Casper/Desktop/Java-Studies/Personal/SchoolApp/SchoolServiceApp/TeacherPostService",
     "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
@@ -51,19 +58,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="StudentGetService" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="StudentGetService" />
-      <option name="filePath" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
